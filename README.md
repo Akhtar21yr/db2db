@@ -107,7 +107,7 @@ pip install -r requirements.txt
 ```sh
 python -m unittest discover -s tests
 ```
-2. 
+
 
 ## **Contributing**
 

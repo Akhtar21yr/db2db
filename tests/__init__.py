@@ -1,7 +1,6 @@
 from db2db import transfer_data
-from db2db.utils import configure_logging
 
-configure_logging()
+
 
 source_db_config = {
     'db_type': 'postgresql',

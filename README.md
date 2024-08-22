@@ -1,7 +1,7 @@
 # db2db
 
 `db2db` is a Python package for transferring data between different SQL databases. It supports various database types including PostgreSQL, MySQL, and Microsoft SQL Server.
-
+![alt text](./db2db.webp)
 ## Features
 
 - **Data Transfer:** Transfer data between different SQL databases.
@@ -13,7 +13,7 @@
 You can install `db2db` from PyPI using pip:
 
 ```bash
-pip install db2db
+pip install db2db-2
 ```
 ## **Usage**
 
@@ -46,10 +46,6 @@ target_db_config = {
 **2.Perform data transfer:**  
 ```sh
 from db2db import transfer_data  
-from db2db.utils import configure_logging
-
-configure_logging()
-
 source_table = 'source_table_name'` 
 target_table = 'target_table_name'
 

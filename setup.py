@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="db2db",
-    version="0.1.1",  # Ensure this version is updated if making changes
+    name="db2db-2",
+    version="0.1.0",  
     author="Akhtar Raza",
     author_email="akhtar.decy@gmail.com",
     description="A package to transfer data between SQL databases like PostgreSQL, MySQL, MSSQL.",

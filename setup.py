@@ -8,11 +8,11 @@ setup(
     name="db2db",  
     version="0.1.0", 
     author="Akhtar Raza",
-    author_email="your-email@example.com",
+    author_email="akhtar.decy@gmail.com",
     description="A package to transfer data between SQL databases like PostgreSQL, MySQL, MSSQL.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/db2db",  
+    url="https://github.com/Akhtar21yr/db2db",  
     packages=find_packages(),
     install_requires=[
         "pandas>=1.3.0",
